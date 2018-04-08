@@ -1,0 +1,24 @@
+
+‘’‘
+===============================================================
+
+================================================================
+
+主要分享Python 及Django教程以及相关的博客！
+https://www.cnblogs.com/feixuelove1009/p/5823135.html
+
+Django+mysql配置与简单操作数据库实例代码
+http://www.jb51.net/article/118896.htm
+
+mysql数据库命令
+https://blog.csdn.net/longampp520/article/details/71516985
+
+ubuntu16 安装mysql密码重置
+https://blog.csdn.net/stubbornness1219/article/details/53445904
+
+ubuntu14 安装mysql密码重置
+https://www.linuxidc.com/Linux/2012-12/75231.htm
+
+
+
+’‘’

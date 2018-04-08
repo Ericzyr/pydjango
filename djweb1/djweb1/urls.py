@@ -15,7 +15,7 @@ Including another URLconf
 """
 from django.conf.urls import url
 from django.contrib import admin
-from django.urls import path
+from django.urls import *
 import re
 from cmdb import views
 
@@ -24,6 +24,7 @@ urlpatterns = [
     # path('admin/', admin.site.urls),
     # path('index/', views.index),
     # path(re.findall('.*dex/', 'index/')[0], views.index),
-    path(''.join(re.findall('^in.*x/', 'index/')), views.index),
-
+    # path(''.join(re.findall('^in.*x/', 'index/')), views.index),
+    url(r'^index/$', views.index),
+    url(r'^index1/$', views.index1),
 ]

@@ -1,5 +1,7 @@
+
 from django.shortcuts import render
 from cmdb import models
+from django.template import loader,context
 from django.shortcuts import HttpResponse
 
 # Create your views here.
@@ -9,11 +11,26 @@ user_list = [
 ]
 
 
+class student_class(object):
+    def __init__(self, name, age, sex):
+        self.Name = name
+        self.Age = age
+        self.Sex = sex
+    def scholl(self):
+        return '{} go scholl'.format(self.Name)
+
+student = student_class('jack', '24', '男')
+
+
+
+stud_list = ['python', 'shell', 'java']
+
+
+
+
 
 def index(request):
-
     if request.method == "POST":
-        print('true')
         # username = request.get_host("username", None)
         username = request.POST.get("username", None)
         password = request.POST.get("password", None)
@@ -21,10 +38,24 @@ def index(request):
         # temp = {"user": username,"pwd": password}
         # user_list.append(temp)
     # return HttpResponse("hell world,你好，世界")
-
-
         models.UserInfo.objects.create(user=username,pwd=password)
     user_list = models.UserInfo.objects.all()
 
 
-    return render(request, "index.html", {"data": user_list})
+    return render(request, "index.html",
+                  {"data": user_list,
+                   "title": "Welocme to Beijing",
+                   "student": student,
+                   'list': stud_list,
+                   })
+
+
+# def index1(request):
+#     t = loader.get_template(index1())
+#     c = context({'uname':'alen'})
+#     return HttpResponse(t.render(c))
+
+
+
+def index1(request):
+    return render(request, 'index1.html', {'name':'alen'})
