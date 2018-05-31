@@ -133,4 +133,4 @@ USE_TZ = True
 
 STATIC_URL = '/static_model/'
 
-TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'static_model'),)
+# TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'static_model'),)

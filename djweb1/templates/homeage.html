@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>welcom to beijing</title>
+</head>
+<body>
+<h1>进入数据主页面</h1>
+ <h1 style="background-color: cadetblue">用户展示</h1>
+    <table border="2">
+        <thead>
+            <th>用户名：</th>
+            <th>密 码：</th>
+        </thead>
+        <tbody>
+
+        {% for line in data %}
+            <tr>
+                <td>{{ line.user }}</td>
+                <td>{{ line.pwd }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+</body>
+</html>

@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+<head>
+    <title>welcome to student manage</title>
+</head>
+<body>
+<h1>hello student login</h1>
+<table >
+     <form action="/homepage/" method="post">
+        {% csrf_token %}
+        <label for="username">用户名：</label>
+        <input type = "text" name="username" value="root" }>
+        <br/>
+        <label for="password">密   码：</label>
+        <input type="password" name="password" value=123>
+        <br/>
+        <input type="submit" value="submit">
+    </form>
+</table>
+</body>
+</html>

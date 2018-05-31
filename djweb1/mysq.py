@@ -52,6 +52,8 @@ for row in results:
 
 print("")
 
+
+
 # 获取所有数据库列表
 
 cursor.execute("show databases")
@@ -75,7 +77,6 @@ print(rtt)
 
 cursor.close()
 conn.close()
-
 
 
 
