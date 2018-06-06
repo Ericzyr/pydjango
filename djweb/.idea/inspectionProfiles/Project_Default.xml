@@ -6,6 +6,7 @@
         <list>
           <option value="djweb.settings.*" />
           <option value="djweb.settings.get_template" />
+          <option value="settings" />
         </list>
       </option>
     </inspection_tool>
