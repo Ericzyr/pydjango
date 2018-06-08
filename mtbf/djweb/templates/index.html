@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页面</title>
+</head>
+<body style="text-align: center">
+
+<h1>Hello student login</h1>
+     <form action="/homeage/" method="post">
+        {% csrf_token %}
+         <p>欢迎登陆网站主页</p>
+        <label for="username">用户名：</label>
+        <input type = "text" name="username" value="root" }>
+        <br/>
+        <label for="password">密码：</label>
+        <input type="password" name="password" value="pass">
+        <br/>
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
