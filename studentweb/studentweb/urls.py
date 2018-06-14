@@ -15,8 +15,10 @@ Including another URLconf
 """
 from django.conf.urls import url
 from studentApp import views
+
 urlpatterns = [
-    url(r' ',views.desktop),
+    url(r'desktop/',views.desktop),
+    url(r'gotest/',views.gotest),
     url(r'login/', views.login),
     url(r'homepage/', views.homepage),
 ]

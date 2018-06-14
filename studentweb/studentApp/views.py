@@ -9,8 +9,14 @@ from django.contrib.auth import authenticate,login
 
 
 
+
+def gotest(request):
+    return render(request, 'gotest.html')
+
+
 def desktop(request):
     return render(request,'desktop.html')
+
 
 def login(request):
     return render(request,'login.html',)
