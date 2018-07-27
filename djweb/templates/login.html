@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>登陆页面</title>
+</head>
+<style>
+    input{
+        width: 110px;
+        height: 20px;
+        color: grey;
+        background-color: white;
+    }
+    form{
+        align-content: center;
+        border:solid 2px white;
+        border-radius: 20px;
+        text-align: center;
+        background-color: #a9c79b;
+        width: 400px;
+        height: 180px;
+        font-size: 18px;
+        margin-top:5%
+    }
+</style>
+
+<body style="text-align: center; height: 100%;background-color:lightslategrey" >
+    <div align="center" style="margin-top: 20%"  >
+         <form action="/index/" method="post">
+            {% csrf_token %}
+             <p style="font-size: 20px;color:black">登陆报告管理</p>
+             <div style='float: left;width: 20px'>&nbsp;&nbsp;&nbsp;</div>
+             <div style="float:left;width: 180px;height:150px">
+                <label for="username">账&nbsp; &nbsp;号:</label>
+                <input type = 'text' name="username" value="root" }>
+                <br/>
+                <label for="password">密&nbsp;&nbsp;码:</label>
+                <input type="password" name="password" value="pass">
+             </div>
+             <div style="float: right;width: 180px;height: 150px;margin-top: 2%" >
+                <input style="height:35px;width:80px;font-size: 18px" type="submit" value="Login">
+             </div>
+        </form>
+    </div>
+</body>
+</html>

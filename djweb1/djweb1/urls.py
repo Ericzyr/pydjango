@@ -21,11 +21,8 @@ from cmdb import views
 
 
 urlpatterns = [
-    # path('admin/', admin.site.urls),
-    # path('index/', views.index),
-    # path(re.findall('.*dex/', 'index/')[0], views.index),
-    # path(''.join(re.findall('^in.*x/', 'index/')), views.index),
-    url(r'^index/', views.index),
-    url(r'^index1/', views.index1),
-    # url(r'^homeage.*', views.index),
+    path('admin/', admin.site.urls),
+    path('index/', views.index),
+    path('index/student', views.student),
+    path('index/download', views.download,),
 ]

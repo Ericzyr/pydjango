@@ -4,52 +4,48 @@
     <meta charset="UTF-8">
     <title>first a django web</title>
 </head>
-<body>
-    <h1 style="background-color: #e1fff1;color:rgba(23,165,19,0.98);">{{ title }}</h1>
-    <li>{{ student.scholl }}</li>
+<style>
+     .fileinput-button {
+            position: relative;
+            display: inline-block;
+            overflow: hidden;
+            background-color: darkseagreen;
+            height: 30px;
+            width: 50px;
+        }
+
+        .fileinput-button input{
+            position:absolute;
+            right: 0px;
+            top:0px;
+            opacity: 0;
+            -ms-filter: 'alpha(opacity=0)';
+            font-size: 200px;
+        }
+</style>
+<body bgcolor="#b0c4de">
+<form action="/index/student" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <input type="text" name="name" value="jack">
+
+    car<input type="checkbox" name="checkbox" value="checkbox" checked="checked" />
+
+    <input  type="submit" name="submit" value="提交">
+
+</form>
+<form action="">
+    <a href="download">下载模板</a>
+    <br/>
 
 
-{#   模板if标签#}
-    {% if student %}
-        <li>{{ student.Age }}</li>
-    {% else %}
-        用户不存在
-    {% endif %}
 
-{#     模板for标签#}
-    {% for i in list %}
-        <li>{{ i }}</li>
-    {% endfor %}
-    <h1 style="background-color: azure">用户输入</h1>
-    <form action="index.html" method="post">
-        {% csrf_token %}
-        <p>名字：<input type="text" name = "username"></p>
-        <p>密码：<input type="password" name="password"></p>
-        <input type="submit" value="提交">
-    </form>
-
-    </tbody>
+       <span class="fileinput-button">
+            <span >上传</span>
+            <input type="file">
+        </span>
 
 
-
-
-
-    <h1 style="background-color: cadetblue">用户展示</h1>
-    <table border="1">
-        <thead>
-            <th>用户名：</th>
-            <th>密 码：</th>
-        </thead>
-        <tbody>
-
-        {% for line in data %}
-            <tr>
-                <td>{{ line.user }}</td>
-                <td>{{ line.pwd }}</td>
-            </tr>
-        {% endfor %}
-    </table>
-
-
+    <p><input type="submit" value="提交"></p>
+</form>
 </body>
 </html>

@@ -2,106 +2,41 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="d796f092-4712-411a-af59-b3241fcbee62" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/tmp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/tmp.png" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testApplicationRedact_20180509_170425/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDeskSwitch648_20180509_153914/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testDesktop_20180509_153433/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/dropbox/system_server_wtf@1525855567640.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/LOOP1/testLetvStoreAllapp648_20180509_154514/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV/phoneInfo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testApplicationRedact_20180509_170425/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDeskSwitch648_20180509_153914/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testDesktop_20180509_153433/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/Dmesg.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/PID.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/case.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/dropbox/system_server_wtf@1525855567640.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/kernel.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/logcat.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/meminfo.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/procrank.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/LOOP1/testLetvStoreAllapp648_20180509_154514/top.log" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/apptest_TV/648TV2/phoneInfo.txt" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/test.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/test2.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/logcat/views_1.py" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/BugChild.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/Bugbase.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/base.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/child.html" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/cpuPic.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/pssPicTemp.htm" />
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/templates/topPicTemp.htm" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/ad.py" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/htmlFolder/20180608_0936.html" afterPath="" />
-      <change type="DELETED" beforePath="$PROJECT_DIR$/v.sh" afterPath="" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/.idea/misc.xml" afterPath="$PROJECT_DIR$/../djweb/.idea/misc.xml" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/.idea/appweb.iml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/.idea/misc.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/.idea/modules.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/.idea/workspace.xml" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/appweb/__init__.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/appweb/settings.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/appweb/urls.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/appweb/wsgi.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/db.sqlite3" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/manage.py" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../appweb/templates/hello.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../djweb/static/images/2.jpg" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../djweb/templates/base.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../djweb/templates/desktop.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../djweb/templates/homeage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../djweb/templates/homeage2.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../djweb1/templates/homeage.html" afterPath="" />
+      <change type="DELETED" beforePath="$PROJECT_DIR$/../djweb1/templates/index1.html" afterPath="" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/.idea/inspectionProfiles/Project_Default.xml" afterPath="$PROJECT_DIR$/../djweb/.idea/inspectionProfiles/Project_Default.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../djweb/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/templates/desktop.html" afterPath="$PROJECT_DIR$/../djweb/templates/desktop.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/djweb/settings.py" afterPath="$PROJECT_DIR$/../djweb/djweb/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/djweb/urls.py" afterPath="$PROJECT_DIR$/../djweb/djweb/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/static/css/a.css" afterPath="$PROJECT_DIR$/../djweb/static/css/a.css" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/static/js/t.js" afterPath="$PROJECT_DIR$/../djweb/static/js/t.js" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/templates/index.html" afterPath="$PROJECT_DIR$/../djweb/templates/index.html" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/test.py" afterPath="$PROJECT_DIR$/../djweb/test.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/webapp/admin.py" afterPath="$PROJECT_DIR$/../djweb/webapp/admin.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb/webapp/views.py" afterPath="$PROJECT_DIR$/../djweb/webapp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb1/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../djweb1/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb2/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../djweb2/.idea/workspace.xml" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb1/cmdb/views.py" afterPath="$PROJECT_DIR$/../djweb1/cmdb/views.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb1/djweb1/settings.py" afterPath="$PROJECT_DIR$/../djweb1/djweb1/settings.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb1/djweb1/urls.py" afterPath="$PROJECT_DIR$/../djweb1/djweb1/urls.py" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../djweb1/templates/index.html" afterPath="$PROJECT_DIR$/../djweb1/templates/index.html" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/djweb4/urls.py" afterPath="$PROJECT_DIR$/djweb4/urls.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/logcat/views.py" afterPath="$PROJECT_DIR$/logcat/views.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/start.py" afterPath="$PROJECT_DIR$/start.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/templates/home.html" afterPath="$PROJECT_DIR$/templates/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mtbf/djweb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../mtbf/djweb/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mtbf/djweb/static/css/a.css" afterPath="$PROJECT_DIR$/../mtbf/djweb/static/css/a.css" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mtbf/djweb/templates/mtbf.html" afterPath="$PROJECT_DIR$/../mtbf/djweb/templates/mtbf.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mtbf/djweb/webapp/test.py" afterPath="$PROJECT_DIR$/../mtbf/djweb/webapp/test.py" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../mtbf/djweb/webapp/views.py" afterPath="$PROJECT_DIR$/../mtbf/djweb/webapp/views.py" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studentweb/.idea/workspace.xml" afterPath="$PROJECT_DIR$/../studentweb/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/../studentweb/templates/desktop.html" afterPath="$PROJECT_DIR$/../studentweb/templates/desktop.html" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -123,12 +58,12 @@
     <option name="myCustomStartScript" value="import sys; print('Python %s on %s' % (sys.version, sys.platform))&#10;import django; print('Django %s' % django.get_version())&#10;sys.path.extend([WORKING_DIR_AND_PYTHON_PATHS])&#10;if 'setup' in dir(django): django.setup()&#10;import django_manage_shell; django_manage_shell.run(PROJECT_ROOT)" />
   </component>
   <component name="FileEditorManager">
-    <leaf>
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="views.py" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/logcat/views.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="202">
-              <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+            <state relative-caret-position="861">
+              <caret line="327" column="6" lean-forward="false" selection-start-line="327" selection-start-column="5" selection-end-line="327" selection-end-column="6" />
               <folding>
                 <element signature="e#46#81#0" expanded="true" />
                 <element signature="e#8551#8638#0" expanded="false" />
@@ -141,7 +76,7 @@
         <entry file="file://$PROJECT_DIR$/logcat/test2.py">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="360">
-              <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+              <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
               <folding />
             </state>
           </provider>
@@ -150,8 +85,8 @@
       <file leaf-file-name="test.py" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logcat/test.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="72">
-              <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+            <state relative-caret-position="720">
+              <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
               <folding>
                 <element signature="e#44#79#0" expanded="true" />
                 <element signature="e#376#745#0" expanded="false" />
@@ -164,8 +99,8 @@
       <file leaf-file-name="base.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/logcat/htmlTemplate/base.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="184">
-              <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+            <state relative-caret-position="216">
+              <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
               <folding />
             </state>
           </provider>
@@ -270,6 +205,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -297,8 +234,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="Scope" />
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -477,26 +412,26 @@
     <frame x="61" y="-4" width="1859" height="1204" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2020983" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.20651574" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.47487685" sideWeight="0.5085588" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Python Console" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32906404" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23010546" sideWeight="0.4914412" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24957167" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.22627038" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Data View" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="manage.py@djweb4" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32934132" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23010546" sideWeight="0.4914412" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
     </layout>
     <layout-to-restore>
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
@@ -573,13 +508,7 @@
     <entry file="file://$PROJECT_DIR$/htmlFolder/20180607_1624.html" />
     <entry file="file://$PROJECT_DIR$/1.py" />
     <entry file="file://$PROJECT_DIR$/s.py" />
-    <entry file="file://$PROJECT_DIR$/v.sh">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="54">
-          <caret line="3" column="0" lean-forward="true" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/v.sh" />
     <entry file="file://$PROJECT_DIR$/logcat/__init__.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -587,13 +516,7 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ad.py">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="360">
-          <caret line="20" column="25" lean-forward="false" selection-start-line="20" selection-start-column="25" selection-end-line="20" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/ad.py" />
     <entry file="file://$USER_HOME$/.PyCharm2017.2/system/python_stubs/-1247971764/builtins.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="354">
@@ -691,7 +614,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="486" column="4" lean-forward="false" selection-start-line="486" selection-start-column="4" selection-end-line="486" selection-end-column="4" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -699,7 +621,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -707,7 +628,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="3006">
           <caret line="167" column="6" lean-forward="false" selection-start-line="167" selection-start-column="6" selection-end-line="167" selection-end-column="6" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -736,38 +656,16 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="144">
           <caret line="10" column="27" lean-forward="true" selection-start-line="10" selection-start-column="27" selection-end-line="10" selection-end-column="27" />
-          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/htmlFolder/20180608_0936.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="7" column="21" lean-forward="true" selection-start-line="7" selection-start-column="21" selection-end-line="7" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htmlFolder/20180614_1536.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/htmlFolder/20180614_1537.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
+    <entry file="file://$PROJECT_DIR$/htmlFolder/20180608_0936.html" />
+    <entry file="file://$PROJECT_DIR$/htmlFolder/20180614_1536.html" />
+    <entry file="file://$PROJECT_DIR$/htmlFolder/20180614_1537.html" />
     <entry file="file://$PROJECT_DIR$/logcat/views_1.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="540">
           <caret line="30" column="47" lean-forward="true" selection-start-line="30" selection-start-column="47" selection-end-line="30" selection-end-column="47" />
-          <folding>
-            <element signature="e#44#79#0" expanded="true" />
-          </folding>
         </state>
       </provider>
     </entry>
@@ -775,7 +673,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -783,7 +680,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="258">
           <caret line="59" column="14" lean-forward="false" selection-start-line="59" selection-start-column="14" selection-end-line="59" selection-end-column="14" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -791,7 +687,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="140">
           <caret line="139" column="22" lean-forward="false" selection-start-line="139" selection-start-column="22" selection-end-line="139" selection-end-column="22" />
-          <folding />
         </state>
       </provider>
     </entry>
@@ -799,14 +694,13 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-950">
           <caret line="21" column="26" lean-forward="true" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-          <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logcat/htmlTemplate/base.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="184">
-          <caret line="12" column="33" lean-forward="true" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
+        <state relative-caret-position="216">
+          <caret line="12" column="33" lean-forward="false" selection-start-line="12" selection-start-column="33" selection-end-line="12" selection-end-column="33" />
           <folding />
         </state>
       </provider>
@@ -814,15 +708,15 @@
     <entry file="file://$PROJECT_DIR$/logcat/test2.py">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="360">
-          <caret line="20" column="28" lean-forward="true" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
+          <caret line="20" column="28" lean-forward="false" selection-start-line="20" selection-start-column="28" selection-end-line="20" selection-end-column="28" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/logcat/test.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="72">
-          <caret line="48" column="21" lean-forward="true" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
+        <state relative-caret-position="720">
+          <caret line="48" column="21" lean-forward="false" selection-start-line="48" selection-start-column="21" selection-end-line="48" selection-end-column="21" />
           <folding>
             <element signature="e#44#79#0" expanded="true" />
             <element signature="e#376#745#0" expanded="false" />
@@ -833,8 +727,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/logcat/views.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="202">
-          <caret line="57" column="40" lean-forward="true" selection-start-line="57" selection-start-column="40" selection-end-line="57" selection-end-column="40" />
+        <state relative-caret-position="861">
+          <caret line="327" column="6" lean-forward="false" selection-start-line="327" selection-start-column="5" selection-end-line="327" selection-end-column="6" />
           <folding>
             <element signature="e#46#81#0" expanded="true" />
             <element signature="e#8551#8638#0" expanded="false" />

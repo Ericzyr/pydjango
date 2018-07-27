@@ -1,0 +1,384 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeTV Stress Report</title>
+      <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+</head>
+<style>
+
+table{
+        /*border-width: 0.01cm;*/
+
+        border: 1px solid gray;
+        border-collapse: collapse;
+        /*border-collapse: inherit;*/
+        /*border-collapse: separate;*/
+        /*font-family:arial; font-size:15px*/
+    }
+    .container{
+            width: 1200px;
+            margin: 2px auto;
+            font-size: 16px;
+            font-family:arial;
+
+			}
+    .headert {
+
+                font-size: 32px;
+                color: #d70c18;
+
+
+    }
+
+    .header_file{
+    			width: 1100px;
+				margin: 2px auto;
+                font-size: 16px;
+                font-family:arial;
+    }
+    .bug{
+
+        background-color:#faf9ec;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        width: 88px;
+        height: 26px
+
+    }
+    .buglistt{
+        background-color:#faf9ec;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        width: 82px;
+        height: 40px
+    }
+</style>
+
+<body margintop="0";  >
+
+<br>
+<br>
+<div class="header_file">
+    <div class="headert" >LeTV STRESS
+        Report</div>
+    <hr color=#CC0000 SIZE=3>
+    Hi All<br/>
+    Listed_below {{ Terrace }}cibn daily build {{ SW }} Stress test Report
+    <br/>
+    Each TV status please refer to the attachment,thanks!
+</div>
+{# <table   border="1px solid gray border="1" cellpadding="0" cellspacing="0" align="center" valign="middle" width="1100" style="font-family:arial; font-size:15px">#}
+<table border="1"; cellpadding="0" cellspacing="0" align="center" valign="middle" bgcolor="white">
+
+
+        <tr>
+            <td colspan="11" width="1100" height="60" bgcolor="#8fbc8f" align="center" valign="middle">
+                <h2 style="color: white" >Mstar{{ Terrace }}CIBN EUI6.5 主线压力 Test Report</h2>
+            </td>
+        </tr>
+        <tr>
+            <th height="35" width="120" bgcolor="#8fbc8f" style="color: white">Platform</th>
+            <th colspan="5" bgcolor="#faf9ec" style="color: black">Mstar{{ Terrace }}-CIBN</th>
+            <th bgcolor="#8fbc8f" style="color: white">HW</th>
+            <th bgcolor="#faf9ec" colspan="4" style="color: black">H5000</th>
+        </tr>
+        <tr>
+            <th height="35" bgcolor="#8fbc8f" style="color: white">Date</th>
+            <th bgcolor="#faf9ec" colspan="5" style="color: black">{{ TestTime  }} ～ {{ TestStop }}</th>
+            <th bgcolor="#8fbc8f" style="color: white">Tester</th>
+            <th bgcolor="#faf9ec" colspan="4" style="color: black">张玉忍</th>
+        </tr>
+        <tr>
+            <th height="35" bgcolor="#8fbc8f" style="color: white">SW</th>
+            <th bgcolor="#faf9ec" colspan="10" style="color: black">{{ SW }}</th></tr>
+        <tr style="color:whitesmoke" bgcolor="#8fbc8f">
+            <th width="100" height="32" bgcolor="#8fbc8f" style="color: white">Features</th>
+            <th width="100" bgcolor="#1dade5">Runtime(h)</th>
+            <th width="100" bgcolor="#228b22">Assigned</th>
+            <th width="100" bgcolor="#aacc03">Pass</th>
+            <th width="100" bgcolor="#d70c18">Fail</th>
+            <th width="100" bgcolor="silver">Block</th>
+            <th width="100" bgcolor="#5c6767">Not Run</th>
+            <th bgcolor="#aacc03">Pass(%)</th>
+            <th bgcolor="#d70c18">Fail(%)</th>
+            <th bgcolor="silver">Block(%)</th>
+            <th bgcolor="#5c6767" width="90">NotRun(%)</th>
+{#            <th width="100">Runtime(h)</th>#}
+{#            <th width="100">Assigned</th>#}
+{#            <th width="100">Pass</th>#}
+{#            <th width="100">Fail</th>#}
+{#            <th width="100">Block</th>#}
+{#            <th width="100">Not Run</th>#}
+{#            <th >Pass(%)</th>#}
+{#            <th >Fail(%)</th>#}
+{#            <th >Block(%)</th>#}
+{#            <th width="90">NotRun(%)</th>#}
+        </tr>
+        {% for loop in urltst  %}
+         <tr bgcolor="#faf9ec" >
+            <th height="32" bgcolor="#8fbc8f" style="color: white">{{ loop.Features }}</th>
+            <td style="text-align: center">96</td>
+            <td style="text-align: center">{{ loop.Assigned }}</td>
+            <td style="text-align: center">{{ loop.passvalue }}</td>
+            <td style="text-align: center">{{ loop.Fail }}</td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">{{ loop.PassRate }}</td>
+            <td style="text-align: center">{{ loop.FailRate }}</td>
+            <td style="text-align: center">0.00%</td>
+            <td style="text-align: center">0.00%</td>
+         </tr>
+         {% endfor %}
+    </table>
+
+<br>
+    <table  border="1" cellpadding="0" cellspacing="0" align="center" valign="middle" width="1100" style="font-family:arial; font-size:15px">
+        <tr>
+            <th bgcolor="#8fbc8f" width="120" height="40" style="color: white">Note</th>
+            <td >
+            </td>
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <td colspan="2" height="28">1、本次压力测试包括,各个桌面、通知栏、设置、主题、文件管理、相册、本地播放...等等</td>
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <td colspan="2" height="28">2、桌面加载，分别为信号源、搜索、首页、乐见、购物、儿童、游戏、应用。</td>
+        </tr>
+        <tr bgcolor="#faf9ec" height="28">
+            <td colspan="2" style="color: #d70c18";>3、TV must get root permission for Stress testing, so we used userdebug version</td>
+        </tr>
+        <tr bgcolor="#faf9ec" height="28">
+            {% if Terrace == 938 %}
+            <td colspan="2">4、本轮在{{ Terrace }}平台 在 X4-43、X4-43N 进行压力测试测试</td>
+                {% else %}
+                <td colspan="2">4、本轮在{{ Terrace }}平台 在 X4-40R、X4-55T 进行压力测试测试</td>
+            {% endif %}
+        </tr>
+        <tr bgcolor="#faf9ec" height="28">
+            <td colspan="2">5、测试前提条件：在线升级超级影视、应用商店、搜索、CIBN..等应用</td>
+        </tr>
+    </table>
+<br>
+    <table border="1" width="1100" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <th width="120" bgcolor="#8fbc8f" height="40" style="color: white">New Buglist</th>
+
+        </tr>
+        <tr bgcolor="#8fbc8f" style="color: white">
+            <th width="100"height="30" >Error Type</th>
+            <th width="130">ID</th>
+            <th width="550">Title</th>
+            <th width="80" >Status</th>
+            <th width="100">Assignee</th>
+            <th width="80" >Resolution</th>
+            <th width="80" >Occurred Times</th>
+        </tr>
+
+        {% for Loop in listad %}
+        <tr bgcolor="#faf9ec" style="font-size: 15px">
+            <td height="30" style="text-align: center">{{ Loop.Error_Type_value }}</td>
+            <td ><a href="http://jira.letv.cn/browse/{{ Loop.ID_value }}">{{ Loop.ID_value }}</a> </td>
+            <td>{{ Loop.Title_value }}</td>
+            <td style="text-align: center">{{ Loop.status_value }}</td>
+            <td style="text-align: center">{{ Loop.Assignee_value }}</td>
+            <td style="text-align: center">{{ Loop.resolution_value }}</td>
+            <td style="text-align: center">{{ Loop.occurred_times }}</td>
+        </tr>
+        {% endfor %}
+
+
+
+
+
+
+
+
+
+
+
+
+
+{# 遗留BUG Buglist#}
+        <tr>
+            <th width="120" bgcolor="#8fbc8f" height="30" style="color: white">遗留BUG Buglist</th>
+            <th colspan="6"></th>
+        </tr>
+        <tr bgcolor="#8fbc8f" style="color: white">
+            <th width="100" height="30" >Error Type</th>
+            <th width="100">ID</th>
+            <th width="540">Title</th>
+            <th width="80">Status</th>
+            <th width="100">Assignee</th>
+            <th width="80">Resolution</th>
+            <th width="100">Occurred Times</th>
+        </tr>
+
+        {% for Loop in listad_old %}
+            <tr bgcolor="#faf9ec" style="font-size: 15px">
+                <td height="30" style="text-align: center">{{ Loop.Error_Type_value_old }}</td>
+                <td ><a href="http://jira.letv.cn/browse/{{ Loop.ID_value_old }}">{{ Loop.ID_value_old }}</a></td>
+                <td>{{ Loop.Title_value_old }}</td>
+                <td style="text-align: center">{{ Loop.status_value_old }}</td>
+                <td style="text-align: center">{{ Loop.Assignee_value_old }}</td>
+                <td style="text-align: center">{{ Loop.resolution_value_old }}</td>
+                <td style="text-align: center">{{ Loop.occurred_times_old }}</td>
+            </tr>
+        {% endfor %}
+    </table>
+<br>
+
+
+
+<form action="/ms648reportok/" method="post">
+{% csrf_token %}
+    <table border="1" bgcolor="" width="1100" align="center" cellpadding="0" cellspacing="0" style="color: white;font-size: 15px">
+        <tr >
+            <th colspan="2" bgcolor="#8fbc8f" style="width: 230px">本轮BUG分析</th>
+            <th rowspan="9" id="container" style="height:350px;width: 870px;"></th>
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th style="width: 102px" bgcolor="#8fbc8f">Status</th>
+            <th style="width: 110px" bgcolor="#8fbc8f">Bug 数量</th>
+        </tr >
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">Open</th>
+            {% if openNumber == None %}
+             <td style="color: black;text-align: center">
+                <input type="text" name="openNumber" class="bug">
+            </td>
+            {% else %}
+            <td style="color: black;text-align: center">{{ openNumber }}</td>
+            {% endif %}
+        </tr>
+         <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">Close</th>
+            {% if closeNumber == None %}
+            <td style="color: black;text-align: center">
+                <input type="text" name="closeNumber" class="bug">
+            </td>
+             {% else %}
+                <td style="color: black;text-align: center">{{ closeNumber }}</td>
+             {% endif %}
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">紧急</th>
+
+            {% if urgency == None %}
+            <td style="color: black;text-align: center">
+                <input type="text" name="urgency" class="bug">
+            </td>
+            {% else %}
+                 <td style="color: black;text-align: center">{{ urgency }}</td>
+            {% endif %}
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">严重</th>
+
+            {% if highNumber == None %}
+            <td style="color: black;text-align: center">
+                <input type="text" name="highNumber" class="bug">
+            </td>
+            {% else %}
+                        <td style="color: black;text-align: center">{{ highNumber }}</td>
+            {% endif %}
+
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">一般</th>
+
+            {% if ordinaryNumber == None %}
+            <td style="color: black;text-align: center">
+                <input type="text" name="ordinaryNumber" class="bug">
+            </td>
+            {% else %}
+                       <td style="color: black;text-align: center">{{ ordinaryNumber }}</td>
+            {% endif %}
+
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">次要</th>
+
+            {% if minorNumber == None %}
+            <td style="color:black;text-align: center">
+                <input  type="text" name="minorNumber" class="bug">
+            </td>
+            {% else %}
+              <td style="color:black;text-align: center">{{ minorNumber }}</td>
+            {% endif %}
+
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">无关紧要</th>
+
+            {% if noNumber == None %}
+            <td style="color:black;text-align: center">
+                <input type="text" name="noNumber" class="bug">
+            </td>
+            {% else %}
+                    <td style="color:black;text-align: center">{{ noNumber }}</td>
+            {% endif %}
+
+        </tr>
+    </table>
+{#<div id="container" style="height:400px;width: 600px;" ></div>#}
+<script>
+    var chart = Highcharts.chart('container', {
+		title: {
+				text: 'Bug量占比'
+		},
+		tooltip: {
+				headerFormat: '{series.name}<br>',
+				pointFormat: '{point.name}: <b>{point.percentage:.1f}%</b>'
+		},
+		plotOptions: {
+				pie: {
+						allowPointSelect: true,
+						cursor: 'pointer',
+						dataLabels: {
+								enabled: false
+						},
+						showInLegend: true // 设置饼图是否在图例中显示
+				}
+		},
+		series: [{
+				type: 'pie',
+				name: 'bug量占比',
+				data: [
+						['Open', {{ openNumber }}],
+						['Close',{{ closeNumber }}],
+						{
+								name: '紧急',
+								y: {{ urgency }},
+								sliced: true,
+								selected: true
+						},
+						['严重',    {{ highNumber }}],
+						['一般',    {{ ordinaryNumber }}],
+						['次要',    {{ minorNumber }}],
+						['无关紧要',    {{ noNumber }}],
+				]
+		}]
+});
+</script>
+<br/>
+
+<div align="center">
+{% if  ordinaryNumber == None or ordinaryNumber == " " %}
+    <input  style="background-color: #8fbc8f;color: white;width: 150px; height:50px; text-align: center" type="submit"  value="提交bug分析数量"/>
+{% endif %}
+</div>
+</form>
+<div class="header_file" style="color: black;tab-size: 16">
+    Best Regards!<br/>
+    张玉忍<br/>
+    Call:17710574129
+</div>
+
+</body>
+</html>

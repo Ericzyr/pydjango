@@ -1,22 +1,111 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
-    <title>登陆页面</title>
-</head>
-<body style="text-align: center">
+    <title>report index</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
 
-<h1>Hello student login</h1>
-     <form action="/homeage/" method="post">
-        {% csrf_token %}
-         <p>欢迎登陆网站主页</p>
-        <label for="username">用户名：</label>
-        <input type = "text" name="username" value="root" }>
-        <br/>
-        <label for="password">密码：</label>
-        <input type="password" name="password" value="pass">
-        <br/>
-        <input type="submit" value="提交">
-    </form>
+</head>
+<link rel="stylesheet" href="../static/css/a.css" type="text/css">
+<script type="text/javascript" src="../static/js/t.js"></script>
+<style>
+    table{
+        width: 100%;
+        padding:0px;
+        margin: 0px;
+        border: solid 0px;
+
+    }
+    th{
+       background-color: #a9c79b;
+        padding:0px;
+        margin: 0px;
+        border: solid 0px;
+    }
+    .inputr{
+        width: 100%; height:50px;color: white;background-color: #a9c79b;font-size: 15px
+    }
+    table{
+    }
+    .thr{
+        background-color: #a9c79b;color:black;text-align:center;height: 40px;
+    }
+
+</style>
+<style type="text/css">
+    @import"../static/css/a.css";
+</style>
+
+<body bgcolor="#a9a9a9" style="border:0px solid #a9c79b;margin: 0px;padding: 0px;height: 100%">
+
+
+<header>
+   Stress Report index Management
+</header>
+
+<nav>
+    <div style="height: 1040px">
+    <input type="button" class = inputr value="上传938bug" onclick=Ms938jump() />
+    <input type="button" class = inputr value="生成938报告" onclick=Ms938remp() />
+    <input type="button" class = inputr value="938报告归档" onclick=record938() />
+    <br/>
+    <input type="button" class = inputr value="上传648bug" onclick=Ms648jump() />
+    <input type="button" class = inputr value="生成648报告" onclick=Ms648remp() />
+    <input type="button" class = inputr value="648报告归档" onclick=record() />
+    </div>
+</nav>
+
+<section>
+<div style="width: 600px">
+    <div style="float: left;width: 300px">
+    <table>
+        <tr>
+            <td class="thr">
+                Mstar6A938 Report归档
+            </td>
+        </tr>
+        {% for web in listpw %}
+        <tr>
+
+            <td style="background-color: white">
+                <a href="/StressTestReport_Demeter/Mstar6A938/?id={{ web }}">{{ web }}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+    <div style="float: right;width: 300px">
+    <table>
+        <tr>
+            <td class="thr">
+               Mstar6A648 Report归档
+            </td>
+        </tr>
+        {% for webx in listpx %}
+        <tr>
+
+            <td style="background-color: white">
+                <a href="/StressTestReport_Hera/Mstar6A/?id={{ webx }}">{{ webx }}</a>
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    </div>
+</div>
+</section>
+
+{#<footer>#}
+{#Copyright W3School.com.cn#}
+{#</footer>#}
+{##}
+{#<script>document.write(Date());</script>#}
+{#<br>#}
+{#<input type="button" value="开始游戏" onclick="attackEnemy()"/>#}
+{#<div id="demo">这是一个段落</div>#}
+{#<button type="button" onclick="displayDate()">显示日期</button>#}
+{#<div style="margin:10px auto;height: 20px; border:0px;background-color: lightcyan">#}
+{#ok#}
+{#</div>#}
 </body>
 </html>

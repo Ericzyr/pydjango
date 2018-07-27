@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>StudentFormlist</title>
+</head>
+<body>
+<p>this is a javasript</p>
+    <form action="/student/" method="post">
+        {% csrf_token %}
+        <input type="checkbox" name='name' value="adfa"/><span>1</span>
+        <input type="submit" value="提交" name="submit" onclick="sufuntion()"/><br/>
+        <input type="checkbox" name='name' value="2"/><span>2</span>
+        <input type="submit" value="提交" name="submit" onclick="sufuntion()"/><br/>
+    </form>
+
+<script>
+    function sufuntion() {
+        window.alert("删除");
+{#        alert("ready go");#}
+    }
+</script>
+
+</body>
+</html>

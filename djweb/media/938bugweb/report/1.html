@@ -1,0 +1,447 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>LeTV Stress Report</title>
+      <script src="http://apps.bdimg.com/libs/jquery/2.1.4/jquery.min.js"></script>
+    <script src="http://code.highcharts.com/highcharts.js"></script>
+</head>
+<style>
+
+table{
+        /*border-width: 0.01cm;*/
+
+        border: 1px solid gray;
+        border-collapse: collapse;
+        /*border-collapse: inherit;*/
+        /*border-collapse: separate;*/
+        /*font-family:arial; font-size:15px*/
+    }
+    .container{
+            width: 1200px;
+            margin: 2px auto;
+            font-size: 16px;
+            font-family:arial;
+
+			}
+    .headert {
+
+                font-size: 32px;
+                color: #d70c18;
+
+
+    }
+
+    .header_file{
+    			width: 1100px;
+				margin: 2px auto;
+                font-size: 16px;
+                font-family:arial;
+    }
+    .bug{
+
+        background-color:#faf9ec;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        width: 88px;
+        height: 26px
+
+    }
+    .buglistt{
+        background-color:#faf9ec;
+        text-align: center;
+        padding: 0px;
+        margin: 0px;
+        border: 0px;
+        width: 82px;
+        height: 40px
+    }
+</style>
+
+<body margintop="0";  >
+<form action="/ms938report/" method="post">
+<input type='hidden' name='csrfmiddlewaretoken' value='F9KhPwyUFsT1MQWCvntcDMF2a3YhpVnYQ69Ovrbn5N2ddUZX64jeJNOcsx3rBE9H' />
+<br>
+<br>
+<div class="header_file">
+    <div class="headert" >LeTV STRESS
+        Report</div>
+    <hr color=#CC0000 SIZE=3>
+    Hi All<br/>
+    Listed_below 938cibn daily build 6.5.304D_0711 Stress test Report
+    <br/>
+    Each TV status please refer to the attachment,thanks!
+</div>
+
+<table border="1"; cellpadding="0" cellspacing="0" align="center" valign="middle" bgcolor="white">
+
+
+        <tr>
+            <td colspan="11" width="1100" height="60" bgcolor="#8fbc8f" align="center" valign="middle">
+                <h2 style="color: white" >Mstar938CIBN EUI6.5 主线压力 Test Report</h2>
+            </td>
+        </tr>
+        <tr>
+            <th height="35" width="120" bgcolor="#8fbc8f" style="color: white">Platform</th>
+            <th colspan="5" bgcolor="#faf9ec" style="color: black">Mstar938-CIBN</th>
+            <th bgcolor="#8fbc8f" style="color: white">HW</th>
+            <th bgcolor="#faf9ec" colspan="4" style="color: black">H5000</th>
+        </tr>
+        <tr>
+            <th height="35" bgcolor="#8fbc8f" style="color: white">Date</th>
+            <th bgcolor="#faf9ec" colspan="5" style="color: black">2018-07-13 ～ 2018-07-17</th>
+            <th bgcolor="#8fbc8f" style="color: white">Tester</th>
+            <th bgcolor="#faf9ec" colspan="4" style="color: black">张玉忍</th>
+        </tr>
+        <tr>
+            <th height="35" bgcolor="#8fbc8f" style="color: white">SW</th>
+            <th bgcolor="#faf9ec" colspan="10" style="color: black">6.5.304D_0711</th></tr>
+        <tr style="color:whitesmoke" bgcolor="#8fbc8f">
+            <th width="100" height="32" bgcolor="#8fbc8f" style="color: white">Features</th>
+            <th width="100" bgcolor="#1dade5">Runtime(h)</th>
+            <th width="100" bgcolor="#228b22">Assigned</th>
+            <th width="100" bgcolor="#aacc03">Pass</th>
+            <th width="100" bgcolor="#d70c18">Fail</th>
+            <th width="100" bgcolor="#c5d9f1">Block</th>
+            <th width="100" bgcolor="#5c6767">Not Run</th>
+            <th bgcolor="#aacc03">Pass(%)</th>
+            <th bgcolor="#d70c18">Fail(%)</th>
+            <th bgcolor="#c5d9f1">Block(%)</th>
+            <th bgcolor="#5c6767" width="90">NotRun(%)</th>
+
+
+
+
+
+
+
+
+
+
+        </tr>
+        
+         <tr bgcolor="#faf9ec" >
+            <th height="32" bgcolor="#8fbc8f" style="color: white">938TV1_X43</th>
+            <td style="text-align: center">96</td>
+            <td style="text-align: center">221</td>
+            <td style="text-align: center">178</td>
+            <td style="text-align: center">43</td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">80.54%</td>
+            <td style="text-align: center">19.46%</td>
+            <td style="text-align: center">0.00%</td>
+            <td style="text-align: center">0.00%</td>
+         </tr>
+         
+         <tr bgcolor="#faf9ec" >
+            <th height="32" bgcolor="#8fbc8f" style="color: white">938TV2_X43N</th>
+            <td style="text-align: center">96</td>
+            <td style="text-align: center">228</td>
+            <td style="text-align: center">175</td>
+            <td style="text-align: center">53</td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">0</td>
+            <td style="text-align: center">76.75%</td>
+            <td style="text-align: center">23.25%</td>
+            <td style="text-align: center">0.00%</td>
+            <td style="text-align: center">0.00%</td>
+         </tr>
+         
+    </table>
+
+<br>
+    <table  border="1" cellpadding="0" cellspacing="0" align="center" valign="middle" width="1100" style="font-family:arial; font-size:15px">
+        <tr>
+            <th bgcolor="#8fbc8f" width="120" height="40" style="color: white">Note</th>
+            <td >
+            </td>
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <td colspan="2" height="28">1、本次压力测试包括,各个桌面、通知栏、设置、主题、文件管理、相册、本地播放...等等</td>
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <td colspan="2" height="28">2、桌面加载，分别为信号源、搜索、首页、乐见、购物、儿童、游戏、应用。</td>
+        </tr>
+        <tr bgcolor="#faf9ec" height="28">
+            <td colspan="2" style="color: #d70c18";>3、TV must get root permission for Stress testing, so we used userdebug version</td>
+        </tr>
+        <tr bgcolor="#faf9ec" height="28">
+            
+                <td colspan="2">4、本轮在938平台 在 X4-40R、X4-55T 进行压力测试测试</td>
+            
+        </tr>
+        <tr bgcolor="#faf9ec" height="28">
+            <td colspan="2">5、测试前提条件：在线升级超级影视、应用商店、搜索、CIBN..等应用</td>
+        </tr>
+    </table>
+<br>
+    <table border="1" width="1100" align="center" cellpadding="0" cellspacing="0">
+        <tr>
+            <th width="120" bgcolor="#8fbc8f" height="40" style="color: white">New Buglist</th>
+
+        </tr>
+        <tr bgcolor="#8fbc8f" style="color: white">
+            <th width="100"height="30" >Error Type</th>
+            <th width="130">ID</th>
+            <th width="550">Title</th>
+            <th width="80" >Status</th>
+            <th width="100">Assignee</th>
+            <th width="80" >Resolution</th>
+            <th width="80" >Occurred Times</th>
+        </tr>
+
+        
+        <tr bgcolor="#faf9ec" style="font-size: 15px">
+            <td height="30" style="text-align: center"> Reboot </td>
+            <td ><a href="http://jira.letv.cn/browse/DEMETER-76072">DEMETER-76072</a> </td>
+            <td>【938CIBN:6.5.304D_0711STRESS】Live桌面切换不同的清晰度时出现冻屏现象，必须手动重启</td>
+            <td style="text-align: center">Open</td>
+            <td style="text-align: center">JinpengYin(尹金鹏)</td>
+            <td style="text-align: center">Unresolved</td>
+            <td style="text-align: center">1</td>
+        </tr>
+        
+        <tr bgcolor="#faf9ec" style="font-size: 15px">
+            <td height="30" style="text-align: center">FC</td>
+            <td ><a href="http://jira.letv.cn/browse/DEMETER-75828">DEMETER-75828</a> </td>
+            <td>【938CIBN:6.5.296D_0517STRESS】在应用桌面app逐个遍历时com.stv.android.videochat发生了FC</td>
+            <td style="text-align: center">Open</td>
+            <td style="text-align: center">于水龙</td>
+            <td style="text-align: center">Unresolved</td>
+            <td style="text-align: center">2</td>
+        </tr>
+        
+        <tr bgcolor="#faf9ec" style="font-size: 15px">
+            <td height="30" style="text-align: center">ANR </td>
+            <td ><a href="http://jira.letv.cn/browse/TVSHARE-43907">TVSHARE-43907</a> </td>
+            <td>【938CIBN:6.5.301D_0620STRESS】在各个桌面切换时发生了ANRincom.stv.launcher(com.stv.launcher/.ui.activity.Launcher)</td>
+            <td style="text-align: center">Open</td>
+            <td style="text-align: center">白文龙[X](Inactive)</td>
+            <td style="text-align: center">Unresolved</td>
+            <td style="text-align: center">3</td>
+        </tr>
+        
+        <tr bgcolor="#faf9ec" style="font-size: 15px">
+            <td height="30" style="text-align: center">Tombstone </td>
+            <td ><a href="http://jira.letv.cn/browse/TVSHARE-43962">TVSHARE-43962</a> </td>
+            <td>【938CIBN:6.5.304D_0711STRESS】从各个桌面进入设置时SignalCatchercom.kuyun.common.androidtv发生Tombstone</td>
+            <td style="text-align: center">Open</td>
+            <td style="text-align: center">张帆7</td>
+            <td style="text-align: center">Unresolved</td>
+            <td style="text-align: center">1</td>
+        </tr>
+        
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        <tr>
+            <th width="120" bgcolor="#8fbc8f" height="30" style="color: white">遗留BUG Buglist</th>
+            <th colspan="6"></th>
+        </tr>
+        <tr bgcolor="#8fbc8f" style="color: white">
+            <th width="100" height="30" >Error Type</th>
+            <th width="100">ID</th>
+            <th width="540">Title</th>
+            <th width="80">Status</th>
+            <th width="100">Assignee</th>
+            <th width="80">Resolution</th>
+            <th width="100">Occurred Times</th>
+        </tr>
+
+        
+            <tr bgcolor="#faf9ec" style="font-size: 15px">
+                <td height="30" style="text-align: center">ANR </td>
+                <td ><a href="http://jira.letv.cn/browse/THCOCO-3443">THCOCO-3443</a></td>
+                <td>【938CIBN:6.5.302D_0627STRESS】在乐见(视频)桌面播放视频时发生了ANRincom.ktcp.tvvideo:webview</td>
+                <td style="text-align: center">Open</td>
+                <td style="text-align: center">夏清</td>
+                <td style="text-align: center">Unresolved</td>
+                <td style="text-align: center">1</td>
+            </tr>
+        
+            <tr bgcolor="#faf9ec" style="font-size: 15px">
+                <td height="30" style="text-align: center">ANR </td>
+                <td ><a href="http://jira.letv.cn/browse/TVSHARE-43922">TVSHARE-43922</a></td>
+                <td>【938CIBN:6.5.302D_0627STRESS】在乐见(视频)桌面播放视频时发生了ANRincom.letv.leso</td>
+                <td style="text-align: center">Open</td>
+                <td style="text-align: center">YanqingTao(陶延庆)</td>
+                <td style="text-align: center">Unresolved</td>
+                <td style="text-align: center">1</td>
+            </tr>
+        
+            <tr bgcolor="#faf9ec" style="font-size: 15px">
+                <td height="30" style="text-align: center">FC</td>
+                <td ><a href="http://jira.letv.cn/browse/DEMETER-75896">DEMETER-75896</a></td>
+                <td>【938CIBN:6.5.298D_0531STRESS】在多次进入日历应用，查看日历界面显示时com.stv.calendar发生了FC</td>
+                <td style="text-align: center">Open</td>
+                <td style="text-align: center">黄思睿</td>
+                <td style="text-align: center">Unresolved</td>
+                <td style="text-align: center">1</td>
+            </tr>
+        
+            <tr bgcolor="#faf9ec" style="font-size: 15px">
+                <td height="30" style="text-align: center"> ANR </td>
+                <td ><a href="http://jira.letv.cn/browse/DEMETER-75895">DEMETER-75895</a></td>
+                <td>【938CIBN:6.5.298D_0531STRESS】在查动多屏互动时发生了ANRincom.stv.smartControl</td>
+                <td style="text-align: center">Open</td>
+                <td style="text-align: center">史学强</td>
+                <td style="text-align: center">Unresolved</td>
+                <td style="text-align: center">2</td>
+            </tr>
+        
+            <tr bgcolor="#faf9ec" style="font-size: 15px">
+                <td height="30" style="text-align: center">Reboot</td>
+                <td ><a href="http://jira.letv.cn/browse/DEMETER-76055">DEMETER-76055</a></td>
+                <td>【938CIBN:6.5.303D_0704STRESS】在压力测试过程中桌面出现冻屏，必须手动重启</td>
+                <td style="text-align: center">In Progress</td>
+                <td style="text-align: center">JinpengYin(尹金鹏)</td>
+                <td style="text-align: center">Unresolved</td>
+                <td style="text-align: center">1</td>
+            </tr>
+        
+            <tr bgcolor="#faf9ec" style="font-size: 15px">
+                <td height="30" style="text-align: center"> Tombstone </td>
+                <td ><a href="http://jira.letv.cn/browse/DEMETER-76022">DEMETER-76022</a></td>
+                <td>【938CIBN:6.5.302D_0627STRESS】在播放记录中全部取消时com.stv.videohistory发生了Tombstore</td>
+                <td style="text-align: center">Open</td>
+                <td style="text-align: center">汤海波[X](Inactive)</td>
+                <td style="text-align: center">Unresolved</td>
+                <td style="text-align: center">1</td>
+            </tr>
+        
+    </table>
+<br>
+
+
+
+
+    <table border="1" bgcolor="" width="1100" align="center" cellpadding="0" cellspacing="0" style="color: white;font-size: 15px">
+        <tr >
+            <th colspan="2" bgcolor="#8fbc8f" style="width: 230px">本轮BUG分析</th>
+            <th rowspan="9" id="container" style="height:350px;width: 870px;"></th>
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th style="width: 102px" bgcolor="#8fbc8f">Status</th>
+            <th style="width: 110px" bgcolor="#8fbc8f">Bug 数量</th>
+        </tr >
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">Open</th>
+            
+            <td style="color: black;text-align: center">4</td>
+            
+        </tr>
+         <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">Close</th>
+            
+                <td style="color: black;text-align: center">1</td>
+             
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">紧急</th>
+
+            
+                 <td style="color: black;text-align: center">0</td>
+            
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">严重</th>
+
+            
+                        <td style="color: black;text-align: center">0</td>
+            
+
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">一般</th>
+
+            
+                       <td style="color: black;text-align: center">1</td>
+            
+
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">次要</th>
+
+            
+              <td style="color:black;text-align: center">3</td>
+            
+
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th bgcolor="#8fbc8f">无关紧要</th>
+
+            
+                    <td style="color:black;text-align: center">0</td>
+            
+
+        </tr>
+    </table>
+
+<script>
+    var chart = Highcharts.chart('container', {
+		title: {
+				text: 'Bug量占比'
+		},
+		tooltip: {
+				headerFormat: '{series.name}<br>',
+				pointFormat: '{point.name}: <b>{point.percentage:.1f}%</b>'
+		},
+		plotOptions: {
+				pie: {
+						allowPointSelect: true,
+						cursor: 'pointer',
+						dataLabels: {
+								enabled: false
+						},
+						showInLegend: true // 设置饼图是否在图例中显示
+				}
+		},
+		series: [{
+				type: 'pie',
+				name: 'bug量占比',
+				data: [
+						['Open', 4],
+						['Close',1],
+						{
+								name: '紧急',
+								y: 0,
+								sliced: true,
+								selected: true
+						},
+						['严重',    0],
+						['一般',    1],
+						['次要',    3],
+						['无关紧要',    0],
+				]
+		}]
+});
+</script>
+<br/>
+<div align="center">
+
+</div>
+<div>
+    
+</div>
+<div class="header_file" style="color: black;tab-size: 16">
+    Best Regards!<br/>
+    张玉忍<br/>
+    Call:17710574129
+</div>
+</form>
+</body>
+</html>

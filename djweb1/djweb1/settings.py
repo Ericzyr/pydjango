@@ -74,23 +74,23 @@ WSGI_APPLICATION = 'djweb1.wsgi.application'
 # Database
 # https://docs.djangoproject.com/en/2.0/ref/settings/#databases
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.sqlite3',
-#         'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
-#     }
-# }
-
 DATABASES = {
     'default': {
-        'ENGINE': 'django.db.backends.mysql',
-        'NAME': 'pydata',  # 连接数据库的名字
-        'USER': 'root',   # 数据库用户名字
-        'PASSWORD': 'new_pass',  # 数据库密码
-        'HOST': '127.0.0.1',
-        'PORT': '3306',
+        'ENGINE': 'django.db.backends.sqlite3',
+        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
     }
 }
+
+# DATABASES = {
+#     'default': {
+#         'ENGINE': 'django.db.backends.mysql',
+#         'NAME': 'pydata',  # 连接数据库的名字
+#         'USER': 'root',   # 数据库用户名字
+#         'PASSWORD': 'new_pass',  # 数据库密码
+#         'HOST': '127.0.0.1',
+#         'PORT': '3306',
+#     }
+# }
 
 
 # Password validation
@@ -132,5 +132,6 @@ USE_TZ = True
 # https://docs.djangoproject.com/en/2.0/howto/static-files/
 
 STATIC_URL = '/static_model/'
+STATICFILES_DIRS = (os.path.join(BASE_DIR, 'static_model'),)
+TEMPLATE_DIRS = (os.path.join(BASE_DIR,  'templates'),)
 
-# TEMPLATE_DIRS = (os.path.join(BASE_DIR, 'static_model'),)

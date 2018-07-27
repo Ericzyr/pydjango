@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>reportupload</title>
+</head>
+<script type="text/javascript" src="../static/js/t.js">
+</script>
+<style>
+    input{
+        width: 450px;
+        background-color: #a9c79b;
+    }
+        .thr{
+        background-color: #a9c79b;color:black;text-align:center;height: 35px;
+    }
+
+    table{
+        width: 100%;
+        padding:0px;
+        margin: 0px;
+        border: solid 0px;
+    }
+     .ph{
+        background-color: #609ab6;
+        width: 450px;
+        font-size: 15px;
+        height: 40px;
+        display: table-cell;
+        vertical-align: middle;
+    }
+</style>
+
+{#<body style="background-color:snow">#}
+<body background="../static/images/2.jpg">
+{#<img src="../static/images/12.png">#}
+{##}
+{#<p>{{ us }}</p>#}
+{#<p>{{ pa }}</p>#}
+<form action="/Ms648uploadnew/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p class="ph">
+        请上传648平台newbug html文件
+    </p>
+    <p>
+        <input type="file" name="newbug648" accept=".html" id="file" multiple="multiple"/>
+        <input type="submit" value="上传文件">
+    </p>
+</form>
+
+<form action="/Ms648uploadold/" method="post" enctype="multipart/form-data">
+    {% csrf_token %}
+    <p class="ph">
+        请上传648平台oldbug html文件
+    </p>
+    <p>
+        <input type="file" name="oldbug648" accept=".html" id="file" multiple="multiple"/>
+        <input type="submit" value="上传文件">
+    </p>
+</form>
+
+    <div style="width: 900px">
+    <div style="float: left;width: 450px">
+    <form action="/Ms648reportupload/" method="post">
+    {% csrf_token %}
+    <table>
+        <tr>
+            <td class="thr" colspan="2">
+                648html_new
+            </td>
+            <td style="background-color: #609ab6;text-align: center;font-size: 14px;width: 80px">
+                功能
+            </td>
+        </tr>
+        {% for web in listpw %}
+        <tr>
+            <td>
+                <input style="width: 0px;" type="checkbox" name='name' value={{ web }} />
+            </td>
+            <td style="background-color:#c8e0fc;">
+               {{ web }}
+            </td>
+            <td>
+                <input type="submit" name="submit" value="删除 &nbsp;&nbsp;newbug" style="width: 50px;background-color: #609ab6" onclick="sufuntion()" />
+            </td>
+        </tr>
+        {% endfor %}
+    </table>
+    </form>
+    </div>
+    <div style="float: right;width: 450px">
+        <form action="/Ms648reportupload/" method="post">
+        {% csrf_token %}
+            <table>
+                <tr>
+                    <td class="thr" colspan="2">
+                       648html_old
+                    </td>
+                    <td style="background-color: #609ab6;text-align: center;font-size: 14px;width: 80px">
+                        功能
+                    </td>
+                </tr>
+                {% for webx in listpx %}
+                <tr>
+                    <td>
+                        <input style="width: 0px;" type="checkbox" name='name' value={{ webx }} />
+                    </td>
+                    <td  style="background-color:#c8e0fc;">
+                        {{ webx }}
+                    </td>
+                    <td>
+                        <input type="submit" name="submit" value="删除 &nbsp;&nbsp;oldbug" style="width: 50px;background-color: #609ab6" onclick="sufuntion()" />
+                    </td>
+                </tr>
+                {% endfor %}
+            </table>
+        </form>
+    </div>
+    </div>
+
+
+</body>
+</html>

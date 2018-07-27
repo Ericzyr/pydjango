@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>bug number</title>
+</head>
+<style>
+    .inputo{
+        width: 120px;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        text-align: center;
+    }
+    .inputot{
+        width: 150px;
+        margin: 0px;
+        border: 0px;
+        padding: 0px;
+        text-align: center;
+        background-color: white;
+    }
+    table{
+        border: 1px;
+        background-color:black;
+        width:260px;
+        color: white;
+        padding: 0px;
+        margin: 0;
+        border: 0;
+        font-size: 16px;
+    }
+</style>
+<body>
+
+<form action="/report/" method="post" >
+    {% csrf_token %}
+{#    <div style="background-color: #a9c79b;width: 260px;height: 30px">#}
+{##}
+{#    </div>#}
+    <table cellpadding="1" cellspacing="1">
+        <br/>
+        <tr >
+            <th colspan="2" bgcolor="#8fbc8f" style="width: 215px">本轮BUG分析</th>
+{#            <th rowspan="9" id="container" style="height:350px;width: 600px;"></th>#}
+        </tr>
+        <tr bgcolor="#faf9ec">
+            <th style="width: 102px" bgcolor="#8fbc8f">Status</th>
+            <th style="width: 110px" bgcolor="#8fbc8f">Bug 数量</th>
+
+        </tr >
+        <tr bgcolor="white">
+            <th bgcolor="#8fbc8f">Open</th>
+            <td >
+                <select name="openNumber" class="inputot">
+                    {% for i in lip %}
+                    <option value={{ forloop.counter0 }}>{{ forloop.counter0 }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+
+        </tr>
+         <tr bgcolor="white">
+            <th bgcolor="#8fbc8f">Close</th>
+            <td >
+                <select name="closeNumber" class="inputot">
+                    {% for i in lip %}
+                    <option value={{ forloop.counter0 }}>{{ forloop.counter0 }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+        </tr>
+        <tr bgcolor="white">
+            <th bgcolor="#8fbc8f">紧急</th>
+            <td >
+                <select name="urgency" class="inputot">
+                    {% for i in lip %}
+                    <option value={{ forloop.counter0 }}>{{ forloop.counter0 }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+        </tr>
+        <tr bgcolor="white">
+            <th bgcolor="#8fbc8f">严重</th>
+            <td >
+                <select name="highNumber" class="inputot">
+                    {% for i in lip %}
+                    <option value={{ forloop.counter0 }}>{{ forloop.counter0 }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+
+        </tr>
+        <tr bgcolor="white">
+            <th bgcolor="#8fbc8f">一般</th>
+            <td >
+                <select name="ordinaryNumber" class="inputot">
+                    {% for i in lip %}
+                    <option value={{ forloop.counter0 }}>{{ forloop.counter0 }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+
+        </tr>
+        <tr bgcolor="white">
+            <th bgcolor="#8fbc8f">次要</th>
+            <td >
+                <select name="minorNumber" class="inputot">
+                    {% for i in lip %}
+                    <option value={{ forloop.counter0 }}>{{ forloop.counter0 }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+
+        </tr>
+        <tr bgcolor="white">
+            <th bgcolor="#8fbc8f">无关紧要</th>
+            <td >
+                <select name="noNumber" class="inputot">
+                    {% for i in lip %}
+                    <option value={{ forloop.counter0 }}>{{ forloop.counter0 }}</option>
+                    {% endfor %}
+                </select>
+            </td>
+
+        </tr>
+
+    </table>
+    <div style="clear: both">
+        <br/>
+         <input style="background-color: #8fbc8f;color: white;width: 120px" type="submit" value="提交" />
+    </div>
+
+
+</form>
+</body>
+</html>
